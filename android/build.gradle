@@ -39,6 +39,8 @@ allprojects {
         implementation {
             exclude group: 'com.google.android.gms', module: 'play-services-maps'
         }
+            implementation "com.google.android.gms:play-services-maps:18.2.0"
+
     }
 }
 
